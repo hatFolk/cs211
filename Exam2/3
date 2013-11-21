@@ -1,0 +1,10 @@
+3. Imagine I have a regular expression as follows. In the questions below,
+circle whether or not the string matches the regular expression.
+    Regex: ^Hel o(W|w+)orld\.\d\d.+
+    
+    a. HelloWorld.22
+    b. Helooworld.222
+    c. Hel.owworld.22k
+    d. HelloWWorldk222
+    e. Helloolrd.22k
+
