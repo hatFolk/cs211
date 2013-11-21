@@ -7,3 +7,4 @@ http://quizlet.com/30991170/cs-211-rules-flash-cards/
 Either clone the repo or download it as a zip.
 
 Class Website: http://www.cs.gmu.edu/~kdobolyi/cs211/
+The Final is on Monday, 12/16 at 1:30-4:15.
