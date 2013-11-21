@@ -1,0 +1,24 @@
+3. Read all three parts below before starting to write your code. Your code
+must compile for full credit.
+
+	a. Write an interface called Item. An Item should have a void method
+	called print to print out the itme that uses the default toString methods
+	to print out the fields of the class.
+
+	b. Now write an abstract class called Computer that implements the
+	interface from Question 3a. This class should store the brand of the
+	computer as a String, as as the price of a Computer as a primitive float.
+	Any object that is a Computer must maintain the following invariants:
+	The brand must be at least 3 and no more than 20 characters long, and the
+	price must be a positive number at or below a thousand. Your code must
+	implement these invariants for full credit. These fields should be mutable
+	by other classes, however the Computer class must exhibit the
+	Object-Oriented properties of encapsulation and information hiding as we
+	have discussed in class.
+
+	c. Finally write a concrete class MacBook which extends the Computer class
+	with an additional field called applications that stores a list of them
+	(each application can be stored as a String). You must write a constructor
+	that initializes all fields of the MacBook (including inherited ones), and
+	you may not shadow any variables. Write a toString method to print out
+	all of the fields of the MacBook.

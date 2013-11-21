@@ -1,0 +1,53 @@
+1. Exam the code in MyClass.java and answer the following:
+	a. List the fields of MyClass that a direct subclass of MyClass could
+	access directly
+
+	b. List the fields of MyClass that any class could directly access, or
+	state that this is impossible (2 points)
+
+	c. Is the compareTo method above recursive? YES or NO and in ONE SENTENCE
+	explain why.
+
+	d. Assume that salaries always contains the wage you're looking for. What
+	is the runtime of the find method for the (support your answer with ONE
+	SENTENCE), assuming a list size of n:
+		i. Best possible case?
+
+		ii. Worst possible case?
+
+		iii. Average case?
+
+	e. Answer YES or NO whether the statement in the encode method (1-4) would
+	cause a compilation error, and in ONE SENTENC explain why.
+		Statement 1:
+
+		Statement 2:
+
+		Statement 3:
+
+		Statement 4:
+
+	f. What will be the output of the openFile method when input.txt does not
+	exist?
+
+	g. What will be the output of the openFile method when it is able to open
+	the file input.txt?
+
+	h. If I wanted to change the find method to return the Integer found,
+	rather than a boolean value, and I had the expression "salaries.get(i)",
+	What -type- would this evaluate to at compile time? What type would this
+	evaluate to at runtime?
+
+	i. Override the equals method from the base class Object for myClass in
+	such a way that two instances are equal when all of their fields have the
+	same values (which does not necessarily mean they are the same object in
+	memory in terms of memory references). Your method must never throw an
+	exception. Also, you must use at least one conditional in your method that
+	makes use of short-circuiting as we have discussed in class.
+
+	j. Is it possible to write a constructor for MyClass and still have the
+	code compile? If YES, then explain why we would ever want to do this. If
+	NO, explain why not. One sentence.
+
+	k. If I were to write a main method for MyClass, list all of the methods
+	that currently exist in the code above that such a main method could call.

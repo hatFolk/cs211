@@ -1,0 +1,50 @@
+2. Why is main a static method? (This can be answered in one phrase)
+
+3. How are polymorphism and dynamic binding related?
+
+4. List one benefit each, as we have discussed in class, of the following
+concepts (can be a phrase). Each benefit must be different from all of the
+others for full credit.
+	a. Static fields
+
+	b. Primitive arrays
+
+	c. Private methods
+
+	d. Public fields
+
+	e. Private fields
+
+	f. Passing an argument by reference
+
+	g. Constructors
+
+	h. Interfaces
+
+	i. Inheritance
+
+	j. Abstract classes
+
+5. Now list one drawback or "thing we have to be careful about otherwise it
+will cause a compilation/runtime error" each, as we have discussed in class,
+of the following concepts. Each answer must be appreciably different from the
+rest.
+	a. Static fields
+
+	b. Primitive arrays
+
+	c. Private methods
+
+	d. Public fields
+
+	e. Private fields
+
+	f. Passing an argument by reference
+
+	g. Constructors
+
+	h. Interfaces
+
+	i. Inheritance
+
+	j. Abstract classes

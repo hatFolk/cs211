@@ -1,0 +1,15 @@
+4. Write True or False for each statement and defend the choice in a sentence.
+
+	a. The regular expression "a*b*c*" will match an empty String.
+
+	b. The final keyword can be aplied to a class and doing so means you
+	cannot further extend the class.
+
+	c. Using generics in Java helps eliminate ClassCastExceptions
+
+	d. You can run bytecode on an operating system that does not have a Java
+	compiler installed
+
+	e. An abstract class must have at least one abstract method.
+
+	f. Java uses static binding of methods, as it is a compiled language.

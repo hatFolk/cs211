@@ -1,0 +1,101 @@
+From Piazza, @1513
+Author: Dr. Kinga Dobolyi
+
+Rules...for CS211
+
+In class I mentioned that it would be nice to have a "cheat sheet" of rules
+for the exam, and how these should allow students to get perfect scores on
+exam 2, if they apply them (correctly). I'm compiling a list of rules here;
+I'll mention this more later, but try memorizing these rules and/or printing
+them out for Monday, and see if it would have helped you with the exam
+questions, if you got them wrong.
+
+
+For future classes, you should come up with a list like this on your own, and
+memorize it before the exam.
+
+MEMORY RULES
+
+- Each constructor call creates a new object in the heap, whose address is
+  assigned to the variable/reference
+
+- Each method call (a ctor is a method) has its own local copies of variables
+  (including arguments)
+
+- Each method call has a this value
+
+- A call to another method of the same class (or parent) uses the caller's
+  this value
+
+- An attribute not assigned in a ctor gets the value assigned at declaration
+  (if no value given, uses defaults)
+
+- Memory is always assigned (with = or in method calls) by "copying values in
+  the small boxes"
+
+- All objects have a reference that stores a memory address
+
+- All objects live in the heap
+
+- A method call's local data (variables) are lost after the method exits
+  (except possibly the return value)
+
+- A static field is shared among all objects of a class
+
+- An attribute can be referred to in a method with or without the this
+  keyword. Exception: when an incoming argument has the same name (like
+  Eclipse's defaults), you MUST use the this keyword if you want to access the
+  attribute instead of the argument
+
+- If a method called on an object, and there are multiple such methods from
+  the inheritance hierarchy, dynamic binding chooses the method "closest" to
+  the object's runtime type (which is stored with the object)
+
+
+COMPILATION RULES
+
+- The name of the class must match the name of the file
+
+- All classes outside of the java.lang package must be imported if you want to
+  use them
+
+- All methods except ctors need return types
+
+- All methods in an interface are abstract
+
+- If a class implements an interface, it must either provide bodies for all
+  the methods of the interface, or be declared as abstract
+
+- A class can implement multiple interfaces as a time
+
+- One interface can extend another interface
+
+- All the methods in a class can see all of the attributes, regardless of
+  public/protected/private visibility
+
+- All methods in a child class or other classes can only see the public
+  attributes and methods of a class
+
+- A method with a return statement must return a value along all possible
+  paths through the method,  of the appropriate type
+
+- The compiler checks that types, not values, match or are allowed
+
+- A static method can only access local variables and static attributes of the
+  same class
+
+- Writing a ctor for a class means you lose the default ctor
+
+- A child class can make a reference to the parent class only using super
+
+- A static method or attribute that is public can be called on the class,
+  without instantiating an object
+
+- Polymorphism allows us to make assignments only when the value being
+  assigned is of the same type as the reference, or a child type
+
+- Casting tells the compiler to trust that the casted variable is of the
+  stated type
+
+Usman Tahir made this in Flash Card format:
+http://quizlet.com/30991170/cs-211-rules-flash-cards/

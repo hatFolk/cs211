@@ -1,0 +1,11 @@
+7. Complete the following method to find the minimum value of the objects in
+the list arrayList. The method should return the element with the minimum
+value. You may NOT use the Collections.sort method or any other sorting
+algorithm, for this question (i.e. implementing BubbleSort or anything is both
+not allowed and only makes things harder). Note that you don't know what type
+of objects are in arrayList, only that they implmement the Comparable
+interface. This question is potentially non-obvious- save it until the end.
+
+Start with:
+public Object findMin(ArrayList<Comparable> arrayList){
+

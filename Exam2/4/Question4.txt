@@ -1,0 +1,9 @@
+4. Examine the Animal, Dog, and Final.java files.
+
+	a. Why will the Dog class not compile? Fix the Dog class so it would
+	compile (you can comment out things).
+
+	b. Why will the Final class not compile? Fix the Final class so it would
+	compile (you can comment out things).
+
+	c. After your fixes in b and c, what would be the output above?
