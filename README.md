@@ -9,6 +9,8 @@ Either clone the repo or download it as a zip.
 Class Website: http://www.cs.gmu.edu/~kdobolyi/cs211/
 The Final is on Monday, 12/16 at 1:30-4:15.
 
+The Final Exam has the ability to Replace Exam2's grade if the difference in points is 14.
+
 Other Topics of Study:
  
 Imagine we have a linked list and an array each storing 100 Strings. The
