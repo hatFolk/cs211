@@ -1,0 +1,6 @@
+1. Linked List; need more memory for links
+
+2. Array; need to double memory for copying when creating new array.
+
+3. Array; needs all instructions for copy. For linked list, we can just keep
+a pointer to the end and add it there.

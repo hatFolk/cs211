@@ -1,0 +1,11 @@
+Imagine we have a linked list and an array each storing 100 Strings.
+The array is at maximum capcity. Assume efficient implementations (and
+document them)
+
+1. Which one would use more memory, when not being accessed/modified?
+
+2. Which one would use more memory during the operation of adding a new
+element?
+
+3. Which one would need more instructions to add a new element (both are
+unsorted)?
