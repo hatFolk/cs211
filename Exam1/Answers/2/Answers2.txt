@@ -1,0 +1,10 @@
+2. Give the output for Test.java (you can assume the toString method of Object
+returns a String such as "[0x0123456]" which refers to a memory address. It
+doesn't matter what it actually is.
+
+	a. Write the output below:
+		Memory Address for Object
+		"Kinga"
+		3
+	b. Explain what polymorphism is in Java using the example above.
+		

@@ -1,0 +1,23 @@
+4. Write True or False for each statement and defend the choice in a sentence.
+
+	a. The regular expression "a*b*c*" will match an empty String.
+		True. Each of the * takes 0 or more of the group or letter on the
+		right.
+
+	b. The final keyword can be applied to a class and doing so means you
+	cannot further extend the class.
+		True. Final literally means final.
+
+	c. Using generics in Java helps eliminate ClassCastExceptions
+		True. It bypasses the polymorphic bit.
+
+	d. You can run bytecode on an operating system that does not have a Java
+	compiler installed
+		True. Bytecode is run directly by a computer, rather than through
+		the JVM.
+
+	e. An abstract class must have at least one abstract method.
+		False. An interface has abstract methods, not an abstract class.
+
+	f. Java uses static binding of methods, as it is a compiled language.
+		False. Java has dynamic binding.
