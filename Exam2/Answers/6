@@ -1,0 +1,50 @@
+6. Write True or False for the following and defend your choice in a sentence.
+	a. Unchecked exceptions do not have to be inside of a try-catch block.
+
+		False. 
+
+	b. A NullPointerException is an example of a checked exception.
+
+		False. It is an Unchecked exception.
+
+	c. Method overriding implies you can have different arguments for the
+	conceptually same method.
+
+	
+
+
+	d. Method overloading is when the child class re-implements the method in
+	the parent class.
+
+		
+
+
+	e. The following code will always throw runtime exception:
+	StringbadString=null;
+	if(1==1 || badString.toString())
+		System.out.println("nonsense");
+
+		
+
+
+	f. An abstract class must have at least one abstract method.
+
+		False	
+
+	g. Whitespace is used as a delimiter in command line arguments.
+
+		True		
+
+	h. Java uses static binding of methods, as it is a compiled language.
+
+		False.
+
+
+	i. The number 23, as a base 4 number, is equivalent to 13 in base 10.
+
+		False. 23₄ = 113₁₀	
+
+	j. The size of a primitive array in Java cannot be changed after it is
+	declared.
+
+		True.

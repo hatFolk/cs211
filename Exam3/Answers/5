@@ -1,0 +1,24 @@
+5. Now list one drawback or "thing we have to be careful about otherwise it
+will cause a compilation/runtime error" each, as we have discussed in class,
+of the following concepts. Each answer must be appreciably different from the 
+rest.
+    a. Static fields
+
+    b. Primitive arrays
+
+    c. Private methods
+
+    d. Public fields
+
+    e. Private fields
+
+    f. Passing an argument by reference
+
+    g. Constructors
+
+    h. Interfaces
+
+    i. Inheritance
+
+    j. Abstract classes
+

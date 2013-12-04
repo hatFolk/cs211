@@ -1,0 +1,15 @@
+6. Examine the four classes (Final1, Person, Student, GradStudent.java)
+
+	a. What is the output of the code?
+
+	b. Change the code above to make people a list of objects. That is, remove
+	the restriction that people can only store Person objects. Make sure the
+	rest of the classes compile, after making this change (which might lead to
+	more changes).
+
+	c. Answer the following questions about short-circuiting in Java:
+		What is short-circuiting:
+
+		An example of short-circuiting in an if-statement:
+
+		Short circuiting is useful because:

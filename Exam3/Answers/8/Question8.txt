@@ -1,0 +1,40 @@
+8. Read through all of this question before beginning to write code. You are
+going to implement your own collection for this question that does not rely on
+arrays or an existing collection to store data. Your collection should be able
+to store objects of any type. You must always use good object-oriented design.
+
+	a. Write an interface that is called Sortable that has one method,
+	getValue, which returns the value associated with a Sortable object.
+
+	b. Next, write a class called Element that implements the Sortable
+	interface. An element should store one object. An Element should link to
+	two other Elements. Each element's value should be mapped to a primitive
+	integer - how you want to do this is up to you, but you must guarantee
+	that no two elements will have the same integer value, which will be
+	returned by the getValue method. You MUST use at least one static
+	variable in this class to implement part of the required functionality.
+
+	c. Now, write a class called ElementCollection. It should have the
+	following features:
+		i. Elements should always be in sorted order, according to the result
+		of getValue
+
+		ii. The collection must have a method to return the "start" or "head"
+		element
+
+		iii. The collection must have method to add an element (argument type
+		must be Element, not Object)
+
+		iv. The collection must have a method to return the size of the
+		collection.
+
+		v. The collection must have a single method to get either the
+		"previous" or the "next" element in the collection. The method will
+		decide which one to return based on an argument you pass to the
+		method (you can pick an appropriate type for this argument). If there
+		is no next or previous element, your method should throw an exception,
+		NoException, which is a class in this same folder that is a direct
+		child class of the class Exception.
+
+		vi. You may not use any import statements (assume this file will be in
+		the same folder as the other two).

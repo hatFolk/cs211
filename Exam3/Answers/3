@@ -1,0 +1,5 @@
+3. How are polymorphism and dynamic binding related?
+
+Polymorphism is a situation where a variable can have different types at
+runtime. Depending on what it is at runtime, the appropriate methods are
+applied. This is possible due to dynamic binding.
