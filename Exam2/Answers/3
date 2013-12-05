@@ -4,20 +4,20 @@ circle whether or not the string matches the regular expression.
 
     a. HelloWorld.22
 
-		No.		
+		No.	(Nothing after "22")
 
     b. Helooworld.222
 
-		Yes.		
+		Yes.
 
     c. Hel.owworld.22k
 
-		Yes.		
+		Yes.
 
     d. HelloWWorldk222
 
-		No.
+		No. (Can't have two W)
 
     e. Helloolrd.22k
 
-		No.
+		No. (no W's)

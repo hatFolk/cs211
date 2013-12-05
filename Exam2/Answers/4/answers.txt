@@ -17,5 +17,5 @@
 		Object Memory
 		Animal Memory
 		some dog
-		Animal: NullPointerException?
-		Animal: 
+		Animal: 0
+		Animal: 0

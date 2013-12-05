@@ -1,3 +1,4 @@
 2. Why is main a static method? (This can be answered in one phrase)
 
-So it can be run statically, without creating the object.
+A static method happens even if there isn't an object. Main is static so you
+can call it without having to create an object first.

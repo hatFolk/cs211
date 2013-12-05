@@ -3,21 +3,44 @@ concepts (can be a phrase). Each benefit must be different from all of the
 others for full credit.
     a. Static fields
 
+		You save memory by sharing across multiple classes
+
     b. Primitive arrays
+
+		Access time is constant. Uses less memory than any other collection.
 
     c. Private methods
 
+		When you want to break up code into smaller methods without having
+		those methods available to other classes.
+
     d. Public fields
+
+		Wide usability and doesn't need getters or setters.
 
     e. Private fields
 
+		Promotes encapsulations and information hiding.
+
     f. Passing an argument by reference
+
+		Allows for the editting of the object rather than a copy of the object
+		Saves time and space.
 
     g. Constructors
 
+		Initialize all fields in one method rather than calling setters.
+
     h. Interfaces
+
+		You can implement multiple interfaces (but can only extend once)
 
     i. Inheritance
 
+		Removes duplicate code into a parent class
+
     j. Abstract classes
+
+		You want inheritance but don't want to create objects because of
+		incompleteness.
 

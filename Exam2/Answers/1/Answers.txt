@@ -3,7 +3,7 @@
 	a. List the fields and methods of MyClass that a direct subclass of 
 	MyClass could access directly.
 
-		count, store, available, num
+		count, store, available, num, func2, func4
 
 	b. List the fields of MyClass that you would be able to use if you were
 	writing code for func1 method.
