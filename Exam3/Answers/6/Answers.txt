@@ -2,14 +2,34 @@
 
 	a. What is the output of the code?
 
+		person: Kinga
+		person student: David
+		person student: John
+
 	b. Change the code above to make people a list of objects. That is, remove
 	the restriction that people can only store Person objects. Make sure the
 	rest of the classes compile, after making this change (which might lead to
 	more changes).
 
+		ArrayList<Person> people = new ArrayList<Person>();
+				// becomes
+		ArrayList people = new ArrayList();
+				// and
+		people.get(i).print();
+				// becomes
+		((Person) people.get(i)).print();
+
 	c. Answer the following questions about short-circuiting in Java:
 		What is short-circuiting:
 
+			Short circuiting is when only one clause of the boolean operator
+			is evaluated (left to right) and the right clauses are skipped
+			because the answer is already known.
+
 		An example of short-circuiting in an if-statement:
 
+			if (true || 3==4)
+
 		Short circuiting is useful because:
+
+			Saves time by preventing unnecessary instructions.
