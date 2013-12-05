@@ -1,0 +1,18 @@
+5. Imagine that instead of a binary tree, we have a tree that has three child
+nodes instead of just two. The nodes in this tree are unsorted. Complete the
+recursive method below to print out all nodes of the tree, assuming that you
+call the method on the root of the tree. The parent nodes should always be
+printed before any of their child nodes.
+
+Start with:
+
+public void printNode(Node curr){
+	if(curr == null){
+		return;
+	} else {
+		System.out.println(curr.getValue());
+		for(int i = 0; i < 3; i++){
+			printNode(curr.getChildren()[i]);
+		}
+	}
+}	
