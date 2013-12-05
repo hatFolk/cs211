@@ -4,21 +4,42 @@ of the following concepts. Each answer must be appreciably different from the
 rest.
     a. Static fields
 
+		Any object can acciddentally modify the shared static field
+
     b. Primitive arrays
+
+		Can't grow in size
 
     c. Private methods
 
+		Other classes can't call private methods.
+
     d. Public fields
+
+		If you change the type of the public field, you may break other code
+		outside of the class
 
     e. Private fields
 
+		Need getters and setters to access private fields
+
     f. Passing an argument by reference
+
+		The method may accidentally change the object passed as an argument
 
     g. Constructors
 
+		A child class must call the parent's ctor through super
+
     h. Interfaces
+
+		Interfaces can't have any private attributes
 
     i. Inheritance
 
+		You can only extend one class at a time
+
     j. Abstract classes
+
+		You can't call the constructor of an abstract class.
 
