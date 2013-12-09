@@ -10,7 +10,7 @@ public class Element implements Sortable{
 	}
 
 	public int getValue(){
-		return new Integer(value);
+		return value;
 	}
 
 	public Element getNext(){
