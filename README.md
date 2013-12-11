@@ -19,3 +19,6 @@ You will not have to write large classes, trace through code and give output,
 and will likely not feature hide-and-seek compilation errors.
 It will probably be closer to "Look, fix this code!".
 Also, you should probably know the Comparable interface.
+
+The exam will be longer than any other exams previous due to it being the
+Final Exam.

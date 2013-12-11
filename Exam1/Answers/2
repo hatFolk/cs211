@@ -7,4 +7,5 @@ doesn't matter what it actually is.
 		"Kinga"
 		3
 	b. Explain what polymorphism is in Java using the example above.
-		
+		Polymorphism is when the same Object or Object methods can be bound
+		to different types.		
