@@ -12,8 +12,8 @@
 	c. Is the compareTo method above recursive? YES or NO and in ONE SENTENCE
 	explain why.
 
-		No, it is not. The compareTo called in MyClass is a String, however,
-		the method called from is an int. They are different.
+		No, it is not. The compareTo called in MyClass is a String,
+		however, the method called from is an int. They are different.
 
 	d. Assume that salaries always contains the wage you're looking for. What
 	is the runtime of the find method for the (support your answer with ONE
@@ -25,7 +25,7 @@
 			O(n²) (Checked through twice per n)
 
 		iii. Average case?
-			O(n) (but 1/2 of worst case)
+			O(n) (Depends on interpretation)
 
 	e. Answer YES or NO whether the statement in the encode method (1-4) would
 	cause a compilation error, and in ONE SENTENCE explain why.
@@ -67,7 +67,8 @@
 			// age and salaries
 			try{
 				MyClass other = (MyClass) o;
-				if (other.age == this.age && other.salaries.equals(o, other)){
+				if(other.age==
+				this.age&&other.salaries.equals(o, other)){
 					return true;
 					}
 				}
