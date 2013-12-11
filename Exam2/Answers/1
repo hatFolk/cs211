@@ -1,0 +1,26 @@
+1. Exam the code in MyClass.java and answer the questions.
+
+	a. List the fields and methods of MyClass that a direct subclass of 
+	MyClass could access directly.
+
+		store, num, func2, func4
+
+	b. List the fields of MyClass that you would be able to use if you were
+	writing code for func1 method.
+
+		count, store, available, num
+
+	c. List the fields of MyClass that you would be able to use if you were
+	writing code for func2 method.
+
+		count, store, available, num
+
+	d. List the fields of MyClass that you would be able to use if you were
+	writing code for the func3 method.
+
+		count, store
+
+	e. List the fields of MyClass that you would be able to use if you were
+	writing code for func4 method.
+		
+		count, store
