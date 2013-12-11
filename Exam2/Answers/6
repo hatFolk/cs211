@@ -23,8 +23,8 @@
 	if(1==1 || badString.toString())
 		System.out.println("nonsense");
 
-		False (it's short circuiting and will never hit the other part of the
-		or statement.
+		False (it's short circuiting and will never hit the other part of
+		the or statement.
 
 	f. An abstract class must have at least one abstract method.
 

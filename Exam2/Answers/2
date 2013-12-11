@@ -32,6 +32,6 @@ is, your answers must generalize to any N).
 	e. Would adding a (static) variable to the data structure that keeps track
 	of the size of the list improve the times for C and D?
 
-		Yes and no. If you knew what N was, you would only have to calculate
-		N/2. Ideally, you would keep a pointer at the middle so you can
-		keep track of where you were adding.
+		Yes and no. If you knew what N was, you would only have to
+		calculate N/2. Ideally, you would keep a pointer at the middle
+		so you can keep track of where you were adding.

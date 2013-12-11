@@ -3,14 +3,17 @@
 	a. Why will the Dog class not compile? Fix the Dog class so it would
 	compile (you can comment out things).
 
-		Does not implement Comparable. (Either implement or remove Comparable)
+		Does not implement Comparable.
+		(Either implement or remove Comparable)
 
 	b. Why will the Final class not compile? Fix the Final class so it would
 	compile (you can comment out things).
 
-		listAnimal.add(o1) is trying to add an object to an ArrayList<Animal>
-		listDog.add(o1) and listDog.add(a1) is trying to add non-dog objects
-		to ArrayList<Dog>
+		listAnimal.add(o1) is trying to add an object to an
+		ArrayList<Animal>.
+		
+		listDog.add(o1) and listDog.add(a1) is trying to add non-dog
+		objectsto ArrayList<Dog>
 
 	c. After your fixes in b and c, what would be the output above?
 
