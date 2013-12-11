@@ -4,8 +4,11 @@ doesn't matter what it actually is.
 
 	a. Write the output below:
 		Memory Address for Object
-		"Kinga"
+		Kinga
 		3
+
 	b. Explain what polymorphism is in Java using the example above.
-		Polymorphism is when the same Object or Object methods can be bound
-		to different types.		
+		Polymorphism is when you can use child objects as though
+		they were parent objects. In this case, all of the objects in the
+		ArrayList were all subclasses of Object and therefore, it was okay
+		to make that for loop and call them all as Object.

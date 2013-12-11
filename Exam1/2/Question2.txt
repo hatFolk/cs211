@@ -5,4 +5,3 @@ doesn't matter what it actually is.
 	a. Write the output below:
 
 	b. Explain what polymorphism is in Java using the example above.
-
