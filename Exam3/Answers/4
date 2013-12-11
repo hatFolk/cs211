@@ -7,7 +7,8 @@ others for full credit.
 
     b. Primitive arrays
 
-		Access time is constant. Uses less memory than any other collection.
+		Access time is constant. Uses less memory than any other
+		collection.
 
     c. Private methods
 
@@ -24,8 +25,8 @@ others for full credit.
 
     f. Passing an argument by reference
 
-		Allows for the editting of the object rather than a copy of the object
-		Saves time and space.
+		Allows for the editting of the object rather than a copy of the
+		object. Saves time and space.
 
     g. Constructors
 

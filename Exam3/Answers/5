@@ -4,7 +4,7 @@ of the following concepts. Each answer must be appreciably different from the
 rest.
     a. Static fields
 
-		Any object can acciddentally modify the shared static field
+		Any object can accidentally modify the shared static field
 
     b. Primitive arrays
 
@@ -16,8 +16,8 @@ rest.
 
     d. Public fields
 
-		If you change the type of the public field, you may break other code
-		outside of the class
+		If you change the type of the public field, you may break other
+		code outside of the class.
 
     e. Private fields
 
@@ -25,7 +25,8 @@ rest.
 
     f. Passing an argument by reference
 
-		The method may accidentally change the object passed as an argument
+		The method may accidentally change the object passed as an
+		argument.
 
     g. Constructors
 
