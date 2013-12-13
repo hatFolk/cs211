@@ -19,6 +19,9 @@ You will not have to write large classes, trace through code and give output,
 and will likely not feature hide-and-seek compilation errors.
 It will probably be closer to "Look, fix this code!".
 Also, you should probably know the Comparable interface.
+Obviously, you should know how to trace memory anyway.
+You do need to know what can(not) cause compilation error.
+And there will always be code writing.
 
 The exam will be longer than any other exams previous due to it being the
 Final Exam.
