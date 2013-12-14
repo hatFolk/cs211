@@ -22,13 +22,20 @@
 			O(1) (constant time)
 
 		ii. Worst possible case?
-			O(n²) (Checked through twice per n)
+			//O(n²) (Checked through twice per n)
+			ACTUALLY, it would be O(n) because of the way find is written.
+			We assume that salaries -already- contains the wage looked for.
+			Therefore, on the first iteration it would return true due to
+			the contains method inside of the for loop.
 
 		iii. Average case?
-			O(n) (Depends on interpretation)
+			O(n), but half the time of worst. Contain will return true on
+			first iteration and the average of linear search of length n is
+			n/2.
 
 	e. Answer YES or NO whether the statement in the encode method (1-4) would
 	cause a compilation error, and in ONE SENTENCE explain why.
+
 		Statement 1: Yes. name is not defined in scope.
 
 		Statement 2: No, age is a static variable defined globally.
@@ -73,18 +80,25 @@
 					}
 				}
 			catch (Exception e){
-				return false;
+				/* Can't put only return false here.
+				 * Try can be successful but the if statement can still
+				 * be false and skips the catch that would have returned
+				 * false.
+				 */
 			}
+				return false;
 		}	
 
 	j. Is it possible to write a constructor for MyClass and still have the
 	code compile? If YES, then explain why we would ever want to do this. If
 	NO, explain why not. One sentence.
 
-		Yes. This constructor can be used by child classes to encapsulate
-		features common among all children..	
+		Yes, you would want this in case you had many classes that extend
+		MyClass and you would want to initialize all of their common values
+		at once.
 
 	k. If I were to write a main method for MyClass, list all of the methods
 	that currently exist in the code above that such a main method could call.
 
-		All static methods or fields.
+		encode method. main accesses first anything that is static in the
+		class.
