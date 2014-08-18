@@ -1,0 +1,68 @@
+What is Whitespace?
+
+Java cares about how we indent our code?
+
+What are the curly braces for in Java?
+
+Is Java Strongly or Weakly typed? What does that mean?
+
+What are primitive types?
+
+What are reference/complex types?
+
+How do you declare a variable in Java?
+
+What is void?
+
+There are four/five categories of primitive types. What are they?
+
+What are booleans?
+
+What are chars?
+
+What are integers?
+
+What are floating points?
+
+Are all types the same number of bits?
+
+Why can a computer only approximate the reals?
+
+What are the different categories of Reference Types?
+
+What are strings?
+
+What does language-defined mean?
+
+What does user-defined mean?
+
+What are arrays?
+
+What is new? How do you use it?
+
+What is the difference between declaring and initializing a variable? Do you
+have to do it one at a time?
+
+What is casting?
+
+There are two ways to declare strings. Using the string, "Make it so", what
+are they?
+
+What is concatenation? How do you do it?
+
+Is 3 + " apples equals " + 2 + ' ' + ':' + false; a valid string in java?
+
+What are comments? Why do we do them?
+
+How do you make quick one-line comments?
+
+How do you make a multi-line paragraph a comment?
+
+Expressions vs Statements?
+
+To compare reference types, we should use the == and !=, right?
+
+System.out.println(); What do the different parts of this mean?
+
+To get User Input, what object might you want to use? How might you use it to
+get a double from the user?
