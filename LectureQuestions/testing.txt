@@ -1,0 +1,15 @@
+What is a bug? Fault? Failure?
+
+What's the point of testing?
+
+How does TDD (test driven development) help you?
+
+What makes up a test case?
+
+What is a test suite?
+
+There different ways of thinking about making test cases.
+	- Input Domain Characterization
+	- Boundary Conditions
+	- Different numbers of objects
+Do you understand what that means?

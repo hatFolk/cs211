@@ -1,0 +1,32 @@
+How can you control flow your code? Using what?
+
+What are block statements?
+
+Is the following code correct:
+	if (x == 3){
+		System.out.println("I am 3!");
+	elif (x > 4){
+		System.out.println("Wat.");
+	} else {
+		System.out.println("I am not 3.");
+	}
+
+What are switch statements? To make a program that talks about a car at a
+traffic light, how might you do it with a switch statement?
+
+What is default?
+
+Do-While vs While? Write an example of each.
+
+For Loops have parts in it! What are they? And write a for loop depicting the
+increase in happiness when you are done with school... or something.
+
+Arrays are Monomorphic? What does that even mean?
+
+How do you declare and initialize an array anyhow? Can you have multible
+dimensions?
+
+Can you touch the insides? If I wanted the 3rd element of an array, how could
+I get it? Could I change it?
+
+How can I check how long my array is?

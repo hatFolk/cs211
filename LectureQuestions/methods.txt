@@ -1,0 +1,25 @@
+What is a static method/variable?
+
+What is scope? Local? Paramter? Instance? Class?
+
+What is the difference between Public and Private?
+
+What is the difference between a primitive and an object variable?
+
+How might you represent a primitive variable and an object variable?
+
+Assignment takes a copy of a value and stores it in a variable. What does that
+mean for primitive types? How is that different than Reference types?
+
+Why do reference assignments work like that?
+
+When you make objects, you allocate memory. Can you run out of memory?
+
+How do you recover memory? What is garbage collection and how do you do this
+in Java?
+
+What is a method signature and what is method overloading?
+
+Default Constructors: What are they? What is null?
+
+What is the difference between public and private? Why do you use each?

@@ -1,0 +1,19 @@
+Classes: What is it, What do you put in it, and how do you create it?
+
+Objects: What is it, where do and how do you make it, and how do you use it?
+
+If you make a whole bunch of the same type of object, are all the objects the
+same? Why?
+
+If I make an Array made out of objects from a class that I made, does it work
+the same as an Array made out of objects of a primitive type?
+
+Does every expression have a type?
+
+How do you get an object from an expression?
+
+What is a Default Constructor?
+
+What are the default values of any value in your class?
+
+What is null? (Danger, the Null Pointer Exception is upon you...)
