@@ -1,8 +1,9 @@
+Here
 Final Exam Notes/Studying Tools Collaboration
 @1581 : Usman Tahir and Co.
 
 Java Textbook with various examples in chapters
-> http://people.ucls.uchicago.edu/~bfranke/apcs_0809/downloads/BPJ_TextBook_3_0_5.pdf
+<a href="http://people.ucls.uchicago.edu/~bfranke/apcs_0809/downloads/BPJ_TextBook_3_0_5.pdf">BPJ Textbook</a>
 
 List of Free Programming Books
 > http://resrc.io/list/10/list-of-free-programming-books/ 
