@@ -1,0 +1,9 @@
+What's inheritance? What's the point of it?
+
+In Java, everything inherits from Object... what does that mean?
+
+How do you make classes inherit each other?
+
+When you inherit a class with private fields and methods, what happens?
+
+
