@@ -1,6 +1,6 @@
-EXAM 1
-=========
+Midterm Study Guides
+=================
 
-Here are some study materials taken from Piazza and other places for Midterm 1.
+Go to Exam 1 for Exam 1 type stuff.
 
-Please do your best!
+Go to Exam 2 for Exam 2 type stuff.
