@@ -6,17 +6,17 @@ public class Thing{
 
 	public Thing(int count, String n){
 		System.out.println("start Thing ctor");
-		//tricky!
+		// tricky!
 		size = count;
 		name = n;
 		System.out.println("in Thing ctor, size= " + size);
 		System.out.println("in Thing ctor, name= " + name);
-		System.out.println("in Thing ctor, count= " + count);
+		System.out.println("in Thing ctor, count= " + this.count);
 	}
 
 	public void run(int times, ArrayList list){
-		for(int i = 0; i < times; i++)
-			if(i<count)
+		for(int i = 0; i< times; i++)
+			if (i<count)
 				System.out.println("list["+i+"]= " + list.get(i).toString());
 			else
 				System.out.println("too large");
@@ -34,4 +34,3 @@ public class Thing{
 		return name + " " + size + " " + count;
 	}
 }
-
